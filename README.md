@@ -41,6 +41,8 @@ projects/
   incident-response/
 ```
 
-# Academic note
+
+
+_Academic note_
 This repository does not include any assignment statements. Such materials may be provided by the instructor and may be subject to copyright and/or redistribution limitations. Only my own coursework deliverables are included.
 
