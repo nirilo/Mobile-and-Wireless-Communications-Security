@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <title>Summer Marketplace Unipi</title>
+  <script src="https://cdn.jsdelivr.net/npm/web3@1.10.0/dist/web3.min.js"></script>
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <h2>Wallet</h2>
+  <button onclick="connectWallet()">Connect MetaMask </button>
+  <p id="account">🔴 Not connected</p>
+
+  <h2>List product</h2>
+  Name <input id="pName">
+  Price ETH <input id="pPrice">
+  <button onclick="listProduct()">List</button>
+
+  <h2>Buy product </h2>
+  <input id="buyId" placeholder="Item #id">
+  <button onclick="buyProduct()">Buy</button>
+  <h3 id="statuz"></h3>
+
+  <table border="1">
+  <thead><tr><th>ID</th><th>Name</th><th>Price</th><th></th></tr></thead>
+  <tbody id="rows"></tbody>
+</table>
+<button onclick="loadListings()">Refresh</button>
+
+</body>
+</html>

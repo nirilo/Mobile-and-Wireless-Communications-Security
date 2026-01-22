@@ -1,0 +1,14 @@
+{
+  "name": "tls-cli-assign",
+  "version": "1.0.0",
+  "bin": { "tls-cli": "./index.js" },
+  "main": "index.js",
+  "scripts": {
+     "start": "node server.js"
+  },
+  "dependencies": {
+    "commander": "^13.1.0",
+    "express": "^5.1.0",
+    "node-forge": "^1.3.1"
+  }
+}
